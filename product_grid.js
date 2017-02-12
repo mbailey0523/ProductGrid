@@ -1,9 +1,8 @@
+var main = function () {
 // Find the 4 adjacent numbers that equal the highest product in a 20x20 grid.
-//////////////////////////////////////////////////////////////////////////////
 
 // Create an array.
 var grid = [];
-
 
 
 // Read in the CSV file and place the contents in an array.
@@ -13,3 +12,7 @@ var grid = [];
 
 
 // Tell the HTML document which 4 numbers to highlight.
+
+};
+
+$(document).ready(main);
